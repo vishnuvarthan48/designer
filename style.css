@@ -1,66 +1,165 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 img{
     max-width: 100%;
 }
-
-.designer{
-    display: inline;
-    width: 20%;
+a{
+    text-decoration: none;
+}
+.leftside{
     position: fixed;
+    width: 20%;
     height: 100vh;
-    background-color: aqua;  
-    padding-top: 20px;
+    background-color:rgb(19, 97, 123);
 }
-.design{
-    padding-left: 20px;
-    background-color: rgb(6, 6, 46);
-    color: whitesmoke;
-    padding-bottom: 20px;
-    padding-top: 10px;
+.rightside{
+    margin-left: 20%;
 }
-.sub{
-    margin-top: 10px;
+.leftside div:first-child {
+    background-color: rgb(19, 97, 123);
+    color: white;
+    padding: 20px 5px;
 }
-.subdesign{
-    margin-top: 10px;
+.leftside div:first-child h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.menu{
+    margin: 20px 0;
+}
+.menu p{
+    display: block;
     text-align: center;
+    text-transform: uppercase;
+    padding: 8px 0;
+    background-color: rgb(232, 236, 236);
+    border-bottom: 1px solid rgb( 150, 152, 153);
 }
-.img{
+.image{
+    overflow: hidden;
+}
+.image img{
     height: 70vh;
+    min-width: 100%;
+}
+.welcome{
+    text-align: center;
+    margin: 30px;
 }
 .welcome h1{
-    width: 80%;
-    float: right;
-    color: rgb(45, 153, 196);
-    font-size: 2rem;
-    text-align: center;
-    font-weight: bold;
-    margin: 20px 0px 20px 0px;
+    color: rgb(19, 97, 123);
 }
 .welcome p{
-    width: 80%;
-    float: right;
-    text-align: center;
+    padding: 20px;
+    font-size: large;
+    line-height: 1.7;
+}
+.aboutus{
+    padding-left: 15px;
 }
 .titlebar{
-    width: 78%;
-    float: right;
-    border-top: 5px solid rgb(15, 4, 77);
-    margin-top: 30px;
-    margin-right: 20px;
-    
+    border-top: 5px solid rgb(19, 97, 123);
+    margin-top: 50px;
 }
-.titlebar h2 {
-    background-color: rgb(49, 110, 151);
+.aboutus h2{
+    background-color: rgb(19, 97, 123);
     width: 15%;
-    color: white;
     padding: 5px;
     text-align: center;
     font-weight: 100;
+    color: whitesmoke;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin:50px 20px 0px 20px;
+}
+.fleximage{
+    width: 26%;
+    position: relative;
+}
+.fleximage h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.fleximage p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 4px;
+}
+.fleximage a{
+    text-align: center;
+    color: rgb(19, 97, 123);
+}
+.teamwork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.furious{
+    width: 60%;
+    padding-left: 25px;
+}
+.furious h1{
+    color:rgb(19, 97, 123);
+}
+.furious p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+.desktop{
+    width: 40%;
+}
+.desktop img{
+    width: 90%;
+    padding: 70px 30px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    height: 3rem;
+}
+.teamworktwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.subser{
+    background-color: rgb(19, 97, 123);
+    color: whitesmoke;
+    font-size: 1.8rem;
+    text-align: center;
+    height:auto;
+    width: 20%;
+    border-radius: 5px;
+}
+.percentage{
+    width: 22%;  
+    margin:auto;
+}
+.Subpercentage{
+    background-color:gainsboro;
+    margin-top: 20px;    
+}
+.Subpercentage p{
+    height: 2rem;
+    color: whitesmoke;
+    width:fit-content;
+    background-color: rgb(19, 97, 123);
+    padding-top: 3px;
+    padding-left: 8px;
+    border-radius: 5px;
 }
