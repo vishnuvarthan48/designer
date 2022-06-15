@@ -145,6 +145,7 @@ a{
     height:auto;
     width: 20%;
     border-radius: 5px;
+    padding-top: 3px;
 }
 .percentage{
     width: 22%;  
@@ -193,9 +194,10 @@ a{
 }
 iframe {
     margin: 40px 0px;
-    width: 95%;
+    width: 100%;
     height: 50vh;
     padding-left: 25px;
+    padding-right: 45px;
 }
 .form{
     padding-left: 25px;
@@ -208,6 +210,7 @@ input {
 }
 .submitbutton{
     padding-left: 25px;
+    padding-top: 10px;
 }
 .buttontwo{
     background-color: rgb(166, 71, 166);
@@ -217,7 +220,49 @@ input {
     padding: 5px;
     font-weight: bold;
 }
+.socialmedia{
+    height: 20vh;
+    background-color:rgb(33, 128, 171);
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: -15px;
+}
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+.fa-facebook {
+    color:white ;
+    background-color:#3B5998 ;
+}
+.fa-twitter {
+    color:white;
+    background-color:  #55ACEE;
+}  
+.fa-pinterest{
+    color: white;
+    background-color:red ;
+}
+.fa-linkedin{
+    color: white;
+    background-color:#3B5998 ;
+}
+.copyright{
+    background-color: rgb(12, 85, 119); 
+    font-size: large;
+    margin-left: -15px;
+    text-align: center;
+    height: 9vh;
+}
+.copyright p{
+    padding-top: 3vh;
+}
 @media only screen and (max-width:575px) {
+    *{
+        text-align: center;
+    }
     .leftside{
         width: 100%;
         height: 9vh;
@@ -267,7 +312,7 @@ input {
         margin:auto;
         margin-top: 15px;
         height: 40px;
-        padding: 3px;
+        padding: 3.1px;
     }
     .teamworktwo{
         flex-direction: column;
